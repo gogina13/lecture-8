@@ -45,13 +45,13 @@ li a {
     background-repeat:no-repeat;
     background-size: cover;
     position: relative;
-    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 .div-1{
     position: absolute;
     color: white;
-    left: 540px;
-    top: 283px;
     font-size: 46px;
     font-family: "helvetica";
     font-weight: bold;
@@ -167,15 +167,15 @@ li a {
     color: #8d8d8d;
     margin-top: 55px;
 }
+/*footer*/
 .divider{
     
         width: 3px;
-        height: 40px;
-        background-color: #3D58A6;
+        height: 30px;
+        background-color: #0748f9c3;
         display: inline-block;
-        margin-right: 20px;
-        margin-left: 20px;
-    
+        margin-right: 10px;
+        margin-left: 10px;
 }
 .fo{
         margin: 250px 40px 15px 30px;
